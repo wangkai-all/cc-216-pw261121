@@ -1,0 +1,11 @@
+{
+  "name": "bus-fare-replay",
+  "version": "1.0.0",
+  "description": "公交票价规则历史回放与方案对比（分析用途，非真实扣款）",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "node --test tests/",
+    "serve": "python3 -m http.server 8080"
+  }
+}
